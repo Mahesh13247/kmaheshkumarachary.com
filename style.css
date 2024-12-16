@@ -52,6 +52,17 @@ nav {
   font-size: 1.5rem;
 }
 
+
+.nav-links a{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  
+}
+
+
+
+
 a {
   color: black;
   text-decoration: none;
@@ -61,8 +72,8 @@ a {
 a:hover {
   /* color: grey; */
   color: rgb(255, 0, 0);
-  text-decoration: underline;
-  text-underline-offset: 1rem;
+  /* text-decoration: underline; */
+  /* text-underline-offset: 1rem; */
   text-decoration-color: rgb(0, 0, 0);
 }
 
