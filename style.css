@@ -246,12 +246,40 @@ section {
   height: 80vh;
 }
 
+
+
+
+
+
+
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
 }
+
+
+
+
+
+.profile-pic-animations:hover{
+  transform: scale(1.03);
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .section__text {
   align-self: center;
