@@ -265,7 +265,7 @@ section {
 
 .profile-pic-animations:hover{
   transform: scale(1.03);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
 }
 
 
@@ -391,6 +391,28 @@ section {
   flex-wrap: wrap;
 }
 
+
+.details-container:hover{
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* best one */
 
 /* .about-containers {
@@ -457,11 +479,31 @@ section {
   margin-bottom: 2rem;
 }
 
+
+
+
+
+
+
+
+
+
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .article-container {
   display: flex;
