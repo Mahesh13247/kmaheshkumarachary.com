@@ -9,9 +9,7 @@
   #contact,
   #projects {
     height: fit-content;
-
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -46,41 +44,20 @@
   }
   .about-containers {
     margin-top: 0;
-
   }
 
-
-
-
-  .about-containers{
+  .about-containers {
     display: grid;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(1,1fr);
-  
-    }
-  
-  
-  .about-details-container{
-    display:flex;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-details-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-  
-  } 
-
-
-
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 600px) {
   #contact,
@@ -136,24 +113,15 @@
     text-align: justify;
   }
 
-
-
-
-
-
-
-  .about-containers{
+  .about-containers {
     display: grid;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(1,1fr);
-  
-    }
-  
-  
-  .about-details-container{
-    display:flex;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-details-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-  
-  } 
+  }
 }
