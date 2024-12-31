@@ -247,6 +247,11 @@ section {
   height: 80vh;
 }
 
+.profile-pic-animations {
+  border-radius: 13rem;
+  border: rgb(0, 0, 0) 5px solid;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -393,7 +398,7 @@ section {
 .about-pic {
   border-radius: 13rem;
   background-color: rgb(255, 255, 255);
-  border: rgb(53, 53, 53) 5px solid;
+  border: rgb(0, 0, 0) 5px solid;
   border-color: rgb(0, 0, 0);
 }
 
