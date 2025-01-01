@@ -1,3 +1,146 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-primary: #000000;
+  }
+
+  .logo {
+    color: #ffffff;
+  }
+
+  .nav-links li a {
+    color: #ffffff;
+  }
+
+  .nav-links li a:hover {
+    color: #ff0000;
+  }
+
+  .nav-links a {
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .section__text .title {
+    color: #ffffff;
+  }
+
+  .section__text .section__text__p2 {
+    color: #ffffff;
+  }
+
+  .btn-container .btn-color-2 {
+    /* background-color: #ffffff; */
+    color: #ffffff;
+  }
+
+  .btn-container .btn-color-2:hover {
+    border: rgb(255, 0, 0) 0.1rem solid;
+  }
+
+  .btn-container .btn-color-1:hover {
+    border: rgb(255, 0, 0) 0.1rem solid;
+  }
+
+  #socials-container .icon {
+    background-color: #ffffff;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 2px;
+    border-radius: 20px;
+  }
+
+  #about .title {
+    color: #ffffff;
+  }
+
+  .text-container p {
+    color: #ffffff;
+  }
+
+  #experience .title {
+    color: #ffffff;
+  }
+
+  #projects .title {
+    color: #ffffff;
+  }
+
+  .color-container {
+    border-color: crimson;
+  }
+
+  .section__pic-container .about-pic {
+    border-radius: 13rem;
+    border-color: crimson;
+  }
+
+  .section__pic-container .profile-pic-animations {
+    border-radius: 13rem;
+    border-color: crimson;
+  }
+
+  .about-containers .details-container {
+    border-color: crimson;
+  }
+
+  #contact .title {
+    color: #ffffff;
+  }
+
+  .contact-info-upper-container {
+    border-color: white;
+  }
+
+  .contact-info-container .contact-icon {
+    background-color: white;
+
+    border-radius: 17px;
+  }
+
+  .contact-info-container p a {
+    color: #ffffff;
+  }
+
+  .contact-info-container p a:hover {
+    color: #ff0000;
+  }
+
+  footer p {
+    color: #ffffff;
+  }
+
+  #projects .icon {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  #experience .icon {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  #about .icon {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  #projects .btn-container .btn-color-2 {
+    color: red;
+  }
+
+  .hamburger-menu .hamburger-icon span {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .menu-links {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;

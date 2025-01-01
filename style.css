@@ -1,20 +1,192 @@
-/* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-primary);
   user-select: none;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease-in-out;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.dark-mode {
+  /* --color-primary: #000000; */
+
+  --color-primary: #ffffff;
+}
+
+.light-mode {
+  /* --color-primary: #ffffff; */
+
+  --color-primary: #000000;
+  .logo {
+    color: #ffffff;
+  }
+
+  .nav-links li a {
+    color: #ffffff;
+  }
+
+  .nav-links li a:hover {
+    color: #ff0000;
+  }
+
+  .nav-links a {
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .section__text .title {
+    color: #ffffff;
+  }
+
+  .section__text .section__text__p2 {
+    color: #ffffff;
+  }
+
+  .btn-container .btn-color-2 {
+    /* background-color: #ffffff; */
+    color: #ffffff;
+  }
+
+  .btn-container .btn-color-2:hover {
+    border: rgb(255, 0, 0) 0.1rem solid;
+  }
+
+  .btn-container .btn-color-1:hover {
+    border: rgb(255, 0, 0) 0.1rem solid;
+  }
+
+  #socials-container .icon {
+    background-color: #ffffff;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 2px;
+    border-radius: 20px;
+  }
+
+  #about .title {
+    color: #ffffff;
+  }
+
+  .text-container p {
+    color: #ffffff;
+  }
+
+  #experience .title {
+    color: #ffffff;
+  }
+
+  #projects .title {
+    color: #ffffff;
+  }
+
+  .color-container {
+    border-color: crimson;
+  }
+
+  .section__pic-container .about-pic {
+    border-radius: 13rem;
+    border-color: crimson;
+  }
+
+  .section__pic-container .profile-pic-animations {
+    border-radius: 13rem;
+    border-color: crimson;
+  }
+
+  .about-containers .details-container {
+    border-color: crimson;
+  }
+
+  #contact .title {
+    color: #ffffff;
+  }
+
+  .contact-info-upper-container {
+    border-color: white;
+  }
+
+  .contact-info-container .contact-icon {
+    background-color: white;
+
+    border-radius: 17px;
+  }
+
+  .contact-info-container p a {
+    color: #ffffff;
+  }
+
+  .contact-info-container p a:hover {
+    color: #ff0000;
+  }
+
+  footer p {
+    color: #ffffff;
+  }
+
+  #projects .icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  #experience .icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  #about .icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  #projects .btn-container .btn-color-2 {
+    color: red;
+  }
+
+  #projects .btn-container .btn-color-2:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .hamburger-menu .hamburger-icon span {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .menu-links {
+    background-color: rgba(255, 255, 255, 0.363);
+  }
+
+  .menu-links a {
+    color: rgb(255, 255, 255);
+  }
+
+  .menu-links a:hover {
+    color: red;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+#theme {
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 audio {
@@ -27,7 +199,7 @@ audio {
 
 .audio-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   -webkit-media-controls-play-button,
   audio::-webkit-media-controls-panel {
     background-color: #ffffff;
@@ -121,11 +293,13 @@ a:hover {
   border: 2px rgb(0, 0, 0);
   font-family: inherit;
   font-size: 2em;
+  transition: all 0.3s ease-in-out;
 }
 
 span,
 .btech {
   color: rgb(255, 0, 0);
+  transition: color 0.3s ease-in-out;
 }
 
 @keyframes typing {
@@ -174,7 +348,7 @@ span,
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgba(255, 112, 112, 0.185);
+  background-color: rgba(0, 0, 0, 0.61);
   border-radius: 55px;
   width: fit-content;
   max-height: 0;
@@ -187,9 +361,13 @@ span,
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+  color: crimson;
 }
 
 .menu-links li {
