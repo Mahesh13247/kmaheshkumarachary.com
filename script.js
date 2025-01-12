@@ -39,3 +39,26 @@ document.getElementById("theme").addEventListener("click", function () {
     }
   }
 });
+
+
+
+
+
+
+
+// for audio player save current time in local storage   
+
+document.addEventListener("DOMContentLoaded", function() {
+  const audio = document.getElementById("myAudio");
+
+  // Load the saved time from local storage
+  const savedTime = localStorage.getItem("audioCurrentTime");
+  if (savedTime) {
+    audio.currentTime = savedTime;
+  }
+
+  // Save the current time to local storage whenever it changes
+  audio.addEventListener("timeupdate", function() {
+    localStorage.setItem("audioCurrentTime", audio.currentTime);
+  });
+});
